@@ -6,12 +6,12 @@
     "name": "Orange Mi",
     "email": "orangemiwj@gmail.com"
   },
+  "repository": "teambition/user-agent-composer",
   "scripts": {
     "test": "mocha test"
   },
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "mocha": "^3.4.1",
     "urllib": "2.22.0"
