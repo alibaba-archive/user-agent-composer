@@ -1,0 +1,19 @@
+{
+  "name": "user-agent-composer",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "author": {
+    "name": "Orange Mi",
+    "email": "orangemiwj@gmail.com"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "^3.4.1",
+    "urllib": "2.22.0"
+  }
+}
