@@ -12,7 +12,9 @@ describe(`${pkg.name}@${pkg.version} test suite`, () => {
       .ext(`urllib`, urllibVersion)
       .ext('My-Server')
       .build()
-    assert.strictEqual(useragent, 'Wopi/1.0.0 (Darwin; 16.6.0) urllib/2.22.0 My-Server')
+    assert(useragent)
+    assert(/^Wopi/.test(useragent))
+    assert(/My-Server$/.test(useragent))
   })
 
   it('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36', () => {
