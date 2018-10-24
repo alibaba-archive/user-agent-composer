@@ -1,7 +1,8 @@
 {
   "name": "user-agent-composer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "author": {
     "name": "Orange Mi",
     "email": "orangemiwj@gmail.com"
